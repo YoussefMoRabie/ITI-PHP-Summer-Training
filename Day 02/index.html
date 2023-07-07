@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITI</title>
+    <style>
+        table {
+          border-collapse: collapse;
+        }
+    
+        th, td {
+          border: 1px solid black;
+          padding: 8px;
+        }
+        .video-container {
+      position: relative;
+      width: 100%;
+      padding-bottom: 56.25%; /* 16:9 aspect ratio (divide height by width and multiply by 100) */
+    }
+
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 50%;
+      height: 50%;
+    }
+      </style>
+</head>
+<body>
+    <table>
+        <tr>
+          <th colspan="2">Full Name</th>
+          <th >Mobile</th>
+        </tr>
+        <tr>
+          <td rowspan="2">Yousef</td>
+          <td rowspan="2">Rabia</td>
+          <td>0127</td>
+        </tr>
+        <tr>
+
+            <td>0128</td>
+        </tr>
+        <tr>
+
+            <td rowspan="2">Leo</td>
+            <td rowspan="2">Messi</td>
+            <td>0127</td>
+
+        <tr>
+            <td>0128</td>
+        </tr>
+      </table>
+      <br>
+      
+      <form action="#" method="get">
+        <fieldset>
+          <legend>Personal Information</legend>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required>
+        </fieldset>
+    
+        <fieldset>
+          <legend>Contact Information</legend>
+          <label for="phone">Phone:</label>
+          <input type="text" id="phone" name="phone">
+          <label for="address">Address:</label>
+          <input type="text" id="address" name="address">
+        </fieldset>
+    
+        <input type="submit" value="Register">
+        <input type="reset" value="Reset">
+
+      </form>
+      <br>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.292201737282!2d31.196840180863205!3d30.028473810294535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145847bb846e3799%3A0x548589ae5d24cbd0!2sITI%20Cairo%20University!5e0!3m2!1sen!2seg!4v1688559884242!5m2!1sen!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <br>
+      <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/-OMo6KTav50?start=333" frameborder="0" allowfullscreen></iframe>
+      </div>
+
+
+    </body>
+</html>

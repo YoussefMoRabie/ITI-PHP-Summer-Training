@@ -1,0 +1,145 @@
+
+:root{
+    --pc:#d90429;
+    --sc:#082d26;
+    --lc:#d1d1d1;
+    --bgc1:#8d99ae;
+    --bgc2:#2b2d42;
+}
+
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color:var(--bgc2);
+}
+header{
+    background-color:var(--bgc1);
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 10px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    text-decoration: none;
+    color: var(--pc);
+    font-size: 1.8em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.navigation a {
+    text-decoration: none;
+    color:  var(--pc);
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+    transition: 0.7s ease;
+}
+
+section
+{
+    padding: 100px 200px;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(images/background0.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.main h2 {
+    color: var(--lc);    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.main h2 span {
+    display: inline-block;
+    margin-top: 10px;
+    color: var(--pc);
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.main h3 {
+    color: var(--lc);    
+    font-size: 1.5em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.img_dis {
+    display: flex;
+    align-items: center;
+  }
+  .description h2 a {
+    display: inline-block;
+    margin-top: 10px;
+    color: var(--pc);
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.description h2 a:hover {
+    color: var(--sc);
+    transform: scale(1.01);
+}
+
+  .description {
+    margin-left: 20px;
+  }
+  
+  img {
+    max-width: 50%;
+  }
+
+
+.title {
+    display: flex;
+    justify-content: center;
+    color:  var(--pc);;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.footer {
+    background-color: var(--bgc2);
+    color: var(--lc);
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.footer-title span {
+    color:  var(--pc);
+}
+
+
