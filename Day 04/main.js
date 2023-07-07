@@ -31,3 +31,15 @@ for (let index = 0; index < number; index++) {
 }
 document.write("</ul>");
 }
+document.write("<hr>");
+document.write("<h1>Answer for the 3rd question is : ");
+var number3 = prompt("Enter the number:");
+number3 = Number(number3);
+if(!isNaN(number3)){
+    document.write(number3%2==0?"Even":"Odd");
+}
+else{ 
+    document.write("NAN");
+
+}
+document.write("</h1>");
