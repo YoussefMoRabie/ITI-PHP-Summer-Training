@@ -1,0 +1,16 @@
+table, th, td {
+    border:1px solid black;
+  }
+  table{
+    text-align: center;
+    width: 500px;
+  }
+
+#myDiv{
+    background-color: blue; 
+    width: 200px; 
+    height: 200px;
+    font-size: large;
+    color: white;   
+    text-align: center; 
+}

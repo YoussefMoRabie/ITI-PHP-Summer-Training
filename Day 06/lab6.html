@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 6</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="text-align: center;">Welcome to Our Website</h1>
+
+    <form >
+        <label for="userName">userName:</label>
+        <input type="text" id="userName" name="userName">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <!-- <br><br>     -->
+        <button type="button" onclick="addNewUser()">Add User</button><br><br>
+        <button type="button" onclick="addUser()">Get Users from DB</button>
+        <br><br>
+    </form>
+    <table id="myTable">
+        <tr>
+            <th>Name</th>
+        <th>Email</th>
+        </tr>
+    
+    </table>
+    <br><br><br>
+    <button type="button" onclick="changeImage()">Change Image</button>
+    <img id="myImage" src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&w=1000&q=80" alt="first image" width="400px" >
+
+    <br><br><br>
+    <button type="button" onclick="changeStyle()">Change Style</button>
+    <div id="myDiv" ><p><br>We will change the style of this Paragraph</p></div>
+    <script src="code.js"></script>
+</body>
+</html>
