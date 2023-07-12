@@ -15,7 +15,7 @@ document.write("<hr>")
 
 document.write("<h1>Sorting</h1>");
 
-var nums = [5, 7, 1 , 9 , 4];
+var nums = [5, 20, 1 , 9 , 4];
 document.write("<span>values is </span> "+ nums.join(" , "));
 document.write("<br>")
 document.write("<span>values after sort descending  </span> "+ nums.sort(function(a, b) {

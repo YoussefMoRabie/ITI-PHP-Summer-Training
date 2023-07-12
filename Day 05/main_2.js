@@ -10,6 +10,8 @@ alert("The square root of the number is: " + squareRoot.toFixed(2));
 
 // Calculate the cosine of an angle
 var angle = prompt("Enter an angle in degrees to calculate its cosine:");
+if(angle!=null){
 var radians = angle * (Math.PI / 180);
 var cosine = Math.cos(radians);
 document.write("The cosine of the angle "+angle+" is: " + cosine.toFixed(2));
+}
